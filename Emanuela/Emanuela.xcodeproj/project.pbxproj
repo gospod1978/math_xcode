@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E7F243E4B2223363C1D4F00 /* Pods_Emanuela.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90BD197F120EB98535B01C64 /* Pods_Emanuela.framework */; };
+		6746B3C0246A88990001504F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6746B3BF246A88990001504F /* AppDelegate.swift */; };
+		6746B3C2246A88990001504F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6746B3C1246A88990001504F /* SceneDelegate.swift */; };
+		6746B3C4246A88990001504F /* First.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6746B3C3246A88990001504F /* First.swift */; };
+		6746B3C7246A88990001504F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6746B3C5246A88990001504F /* Main.storyboard */; };
+		6746B3CC246A88A90001504F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6746B3CA246A88A90001504F /* LaunchScreen.storyboard */; };
+		6746B3D6246A8B840001504F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6746B3D5246A8B840001504F /* Assets.xcassets */; };
+		6746B3D8246A92950001504F /* Second.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6746B3D7246A92950001504F /* Second.swift */; };
+		6746B3DA246D4D970001504F /* Thurd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6746B3D9246D4D960001504F /* Thurd.swift */; };
+		6746B3DC246D543E0001504F /* Four.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6746B3DB246D543E0001504F /* Four.swift */; };
+		6746B3DE246D701F0001504F /* Five.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6746B3DD246D701E0001504F /* Five.swift */; };
+		6746B3E0246E8B260001504F /* Six.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6746B3DF246E8B250001504F /* Six.swift */; };
+		6746B3E7246E94A80001504F /* ok.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6746B3E3246E94A60001504F /* ok.mp4 */; };
+		6746B3E8246E94A80001504F /* no.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6746B3E4246E94A70001504F /* no.mp4 */; };
+		6746B3E9246E94A80001504F /* fiveOk.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6746B3E5246E94A70001504F /* fiveOk.mp4 */; };
+		6746B3EA246E94A80001504F /* fiveNo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6746B3E6246E94A70001504F /* fiveNo.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6746B3BC246A88990001504F /* Emanuela.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emanuela.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6746B3BF246A88990001504F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6746B3C1246A88990001504F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6746B3C3246A88990001504F /* First.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First.swift; sourceTree = "<group>"; };
+		6746B3C6246A88990001504F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6746B3CB246A88A90001504F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6746B3CD246A88A90001504F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6746B3D5246A8B840001504F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6746B3D7246A92950001504F /* Second.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Second.swift; sourceTree = "<group>"; };
+		6746B3D9246D4D960001504F /* Thurd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thurd.swift; sourceTree = "<group>"; };
+		6746B3DB246D543E0001504F /* Four.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Four.swift; sourceTree = "<group>"; };
+		6746B3DD246D701E0001504F /* Five.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Five.swift; sourceTree = "<group>"; };
+		6746B3DF246E8B250001504F /* Six.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Six.swift; sourceTree = "<group>"; };
+		6746B3E3246E94A60001504F /* ok.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = ok.mp4; path = ../../../../../video/ok.mp4; sourceTree = "<group>"; };
+		6746B3E4246E94A70001504F /* no.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = no.mp4; path = ../../../../../video/no.mp4; sourceTree = "<group>"; };
+		6746B3E5246E94A70001504F /* fiveOk.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = fiveOk.mp4; path = ../../../../../video/fiveOk.mp4; sourceTree = "<group>"; };
+		6746B3E6246E94A70001504F /* fiveNo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = fiveNo.mp4; path = ../../../../../video/fiveNo.mp4; sourceTree = "<group>"; };
+		90BD197F120EB98535B01C64 /* Pods_Emanuela.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Emanuela.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B254526124F1B8A1B8786B19 /* Pods-Emanuela.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Emanuela.release.xcconfig"; path = "Target Support Files/Pods-Emanuela/Pods-Emanuela.release.xcconfig"; sourceTree = "<group>"; };
+		F22BEF093DFCCAA007DF69B8 /* Pods-Emanuela.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Emanuela.debug.xcconfig"; path = "Target Support Files/Pods-Emanuela/Pods-Emanuela.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6746B3B9246A88990001504F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7F243E4B2223363C1D4F00 /* Pods_Emanuela.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E1FBAA34AD189C20C1BA1A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F22BEF093DFCCAA007DF69B8 /* Pods-Emanuela.debug.xcconfig */,
+				B254526124F1B8A1B8786B19 /* Pods-Emanuela.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6746B3B3246A88990001504F = {
+			isa = PBXGroup;
+			children = (
+				6746B3E6246E94A70001504F /* fiveNo.mp4 */,
+				6746B3E5246E94A70001504F /* fiveOk.mp4 */,
+				6746B3E4246E94A70001504F /* no.mp4 */,
+				6746B3E3246E94A60001504F /* ok.mp4 */,
+				6746B3BE246A88990001504F /* Emanuela */,
+				6746B3BD246A88990001504F /* Products */,
+				0E1FBAA34AD189C20C1BA1A4 /* Pods */,
+				988874F8DD535BCD524A4646 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6746B3BD246A88990001504F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6746B3BC246A88990001504F /* Emanuela.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6746B3BE246A88990001504F /* Emanuela */ = {
+			isa = PBXGroup;
+			children = (
+				6746B3BF246A88990001504F /* AppDelegate.swift */,
+				6746B3C1246A88990001504F /* SceneDelegate.swift */,
+				6746B3C3246A88990001504F /* First.swift */,
+				6746B3D7246A92950001504F /* Second.swift */,
+				6746B3D9246D4D960001504F /* Thurd.swift */,
+				6746B3DB246D543E0001504F /* Four.swift */,
+				6746B3DD246D701E0001504F /* Five.swift */,
+				6746B3DF246E8B250001504F /* Six.swift */,
+				6746B3C5246A88990001504F /* Main.storyboard */,
+				6746B3CA246A88A90001504F /* LaunchScreen.storyboard */,
+				6746B3D5246A8B840001504F /* Assets.xcassets */,
+				6746B3CD246A88A90001504F /* Info.plist */,
+			);
+			path = Emanuela;
+			sourceTree = "<group>";
+		};
+		988874F8DD535BCD524A4646 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90BD197F120EB98535B01C64 /* Pods_Emanuela.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6746B3BB246A88990001504F /* Emanuela */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6746B3D0246A88A90001504F /* Build configuration list for PBXNativeTarget "Emanuela" */;
+			buildPhases = (
+				A99C2C4AE3EBBDE8B3A6BC24 /* [CP] Check Pods Manifest.lock */,
+				6746B3B8246A88990001504F /* Sources */,
+				6746B3B9246A88990001504F /* Frameworks */,
+				6746B3BA246A88990001504F /* Resources */,
+				5012B94EEFE40AA7B036AD22 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Emanuela;
+			productName = Emanuela;
+			productReference = 6746B3BC246A88990001504F /* Emanuela.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6746B3B4246A88990001504F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Mihail Gospodinov";
+				TargetAttributes = {
+					6746B3BB246A88990001504F = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 6746B3B7246A88990001504F /* Build configuration list for PBXProject "Emanuela" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6746B3B3246A88990001504F;
+			productRefGroup = 6746B3BD246A88990001504F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6746B3BB246A88990001504F /* Emanuela */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6746B3BA246A88990001504F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6746B3E7246E94A80001504F /* ok.mp4 in Resources */,
+				6746B3E8246E94A80001504F /* no.mp4 in Resources */,
+				6746B3E9246E94A80001504F /* fiveOk.mp4 in Resources */,
+				6746B3EA246E94A80001504F /* fiveNo.mp4 in Resources */,
+				6746B3CC246A88A90001504F /* LaunchScreen.storyboard in Resources */,
+				6746B3D6246A8B840001504F /* Assets.xcassets in Resources */,
+				6746B3C7246A88990001504F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5012B94EEFE40AA7B036AD22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Emanuela/Pods-Emanuela-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Emanuela/Pods-Emanuela-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Emanuela/Pods-Emanuela-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A99C2C4AE3EBBDE8B3A6BC24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Emanuela-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6746B3B8246A88990001504F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6746B3E0246E8B260001504F /* Six.swift in Sources */,
+				6746B3C4246A88990001504F /* First.swift in Sources */,
+				6746B3C0246A88990001504F /* AppDelegate.swift in Sources */,
+				6746B3DA246D4D970001504F /* Thurd.swift in Sources */,
+				6746B3C2246A88990001504F /* SceneDelegate.swift in Sources */,
+				6746B3D8246A92950001504F /* Second.swift in Sources */,
+				6746B3DC246D543E0001504F /* Four.swift in Sources */,
+				6746B3DE246D701F0001504F /* Five.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6746B3C5246A88990001504F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6746B3C6246A88990001504F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6746B3CA246A88A90001504F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6746B3CB246A88A90001504F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6746B3CE246A88A90001504F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6746B3CF246A88A90001504F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6746B3D1246A88A90001504F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F22BEF093DFCCAA007DF69B8 /* Pods-Emanuela.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M86V7LPG7G;
+				INFOPLIST_FILE = Emanuela/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mihail-Gospodinov.Emanuela";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6746B3D2246A88A90001504F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B254526124F1B8A1B8786B19 /* Pods-Emanuela.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M86V7LPG7G;
+				INFOPLIST_FILE = Emanuela/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mihail-Gospodinov.Emanuela";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6746B3B7246A88990001504F /* Build configuration list for PBXProject "Emanuela" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6746B3CE246A88A90001504F /* Debug */,
+				6746B3CF246A88A90001504F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6746B3D0246A88A90001504F /* Build configuration list for PBXNativeTarget "Emanuela" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6746B3D1246A88A90001504F /* Debug */,
+				6746B3D2246A88A90001504F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6746B3B4246A88990001504F /* Project object */;
+}
