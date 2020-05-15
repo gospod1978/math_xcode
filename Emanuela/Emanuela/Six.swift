@@ -15,12 +15,19 @@ class Six: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        customizeButtonC(buttonName: video)
+        video.setTitle("PLAY AGAIN EMA", for: .normal)
     }
     
+    func customizeButtonC(buttonName: UIButton) {
+                           buttonName.layer.cornerRadius = 25
+                           buttonName.layer.borderColor = UIColor.red.cgColor
+                           buttonName.layer.borderWidth = 5
+                           buttonName.layer.backgroundColor = UIColor.yellow.cgColor
+                       }
 
     @IBAction func goBack(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
+        performSegue(withIdentifier: "goToFirst", sender: self)
     }
   
 
