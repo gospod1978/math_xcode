@@ -24,7 +24,7 @@ class Four: UIViewController {
             customizeButtonC(buttonName: playEma)
             
             
-            EmaText.text = "Ema chose " + emaChuse
+            EmaText.text = "Ema Chose " + emaChuse
             EmaNumber.text = numberLabel
         }
         

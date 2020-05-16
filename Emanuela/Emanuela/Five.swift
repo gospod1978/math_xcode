@@ -115,7 +115,7 @@ class Five: UIViewController {
     @IBAction func randomNumber(_ sender: Any) {
     
             truResult.text = String("0")
-            EmaResult.text = "0"
+            EmaResult.text = nil
             
             UIView.animate(withDuration: 0.0) {
                                    self.ok.transform = CGAffineTransform(scaleX: 1, y: 1)
@@ -207,7 +207,7 @@ class Five: UIViewController {
                             self.ok.transform = CGAffineTransform(scaleX: 1.5, y: 1.5)
                         }
                         
-                        if self.dobarresult == 1 {
+                        if self.dobarresult == 5 {
                             
                             //this showed my video after one but not transfer to view
                             if let path = Bundle.main.path(forResource: "fiveOk", ofType: "mp4"){
@@ -225,7 +225,7 @@ class Five: UIViewController {
                             
                             
                         }
-                        else if self.dobarresult == 2 {
+                        else if self.dobarresult == 10 {
                             //this showed second video i transfer to next view
                             if let path = Bundle.main.path(forResource: "ok", ofType: "mp4"){
                                                               videoAV = AVPlayer(url: URL(fileURLWithPath: path))
@@ -247,7 +247,7 @@ class Five: UIViewController {
                             self.no.transform = CGAffineTransform(scaleX: 1.5, y: 1.5)
                         }
                         
-                        if self.loshresult == 1 {
+                        if self.loshresult == 5 {
                             //this showed my video after one but not transfer to view
                             if let path = Bundle.main.path(forResource: "fiveNo", ofType: "mp4"){
                                        videoAV = AVPlayer(url: URL(fileURLWithPath: path))
@@ -262,7 +262,7 @@ class Five: UIViewController {
                                        
                                    }
                         }
-                        else if self.loshresult == 2 {
+                        else if self.loshresult == 10 {
                             //this showed second video i transfer to next view
                             if let path = Bundle.main.path(forResource: "no", ofType: "mp4"){
                                                               videoAV = AVPlayer(url: URL(fileURLWithPath: path))
